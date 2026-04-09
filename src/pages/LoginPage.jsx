@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../../hooks/useAuth';
-import { authApi } from '../../services/api';
+import { useAuth } from '../hooks/useAuth';
+import { authApi } from '../services/api';
 import { Heart, Phone, KeyRound, Loader2 } from 'lucide-react';
 
 export default function LoginPage() {

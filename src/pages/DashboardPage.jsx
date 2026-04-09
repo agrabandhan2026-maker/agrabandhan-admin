@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { adminApi } from '../../services/api';
+import { adminApi } from '../services/api';
 import { Users, UserPlus, Heart, CheckCircle, TrendingUp, Activity } from 'lucide-react';
 import clsx from 'clsx';
 
